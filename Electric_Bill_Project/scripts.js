@@ -10,7 +10,7 @@ function getUnitValue(){
     else if(data<=50){
        pay = 25*4.8 + (data-25)*5.6;
     }
-    else if(data<100){
+    else if(data<=100){
        pay = 25*4.8 + 25*5.6 + (data-50)*7.2;
     }
     else {
