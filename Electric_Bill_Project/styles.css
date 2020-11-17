@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
 }
+
 body{
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("bg-img.jpeg");
     background-position: center;
@@ -9,43 +10,41 @@ body{
 div.container{
     position: relative;
     top:200px;
-    display:flex;
-    justify-content: center;
 }
-span#inner{
-    padding: 15px;
-    font-size: 20px;
+div.row{
     color:white;
     background-color:green;
-    display:flex;
-    justify-content: center;
+    text-align: center;
 }
-#button{
-    padding:15px;
+.btn{
     background-color:crimson;
-    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 30px;
     box-shadow:1px 1px 5px black;
 }
-#button:hover{
+.btn:hover{
     color:yellow;
     box-shadow:2px 2px 4px black;
-    cursor: pointer;
 }
-#button:active{
+.btn:active{
     box-shadow: none;
 }
-#unit{
-    margin:10px;
+input {
+    margin-top:10px;
+    margin-bottom: 10px;
 }
-#label{
-    padding:10px;
+.label {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 #result{
     color:red;
     background-color: wheat;
     text-decoration: bold;
-    font-size:30px;
+    font-size: 150%;
     text-align: center;
     position: relative;
     top:300px;
@@ -60,3 +59,4 @@ marquee {
     top:400px;
     font-size:15px;
 }
+
